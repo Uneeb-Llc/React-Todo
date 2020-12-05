@@ -1,0 +1,32 @@
+
+
+.item {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 30px;
+    margin: 4px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item.completed {
+    background-color: #87CEEB;
+    text-decoration: line-through;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    width:100px;
+    padding: 15px 22px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 4px;
+  }
+
+  .clear-btn {
+    background-color: #9A3334;
+  }
